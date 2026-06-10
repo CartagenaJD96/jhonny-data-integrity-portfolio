@@ -1,0 +1,13 @@
+class BlogPost {
+  constructor({ id, title, content, summary, tags, published, created_at }) {
+    this.id = id;
+    this.title = title;
+    this.content = content;
+    this.summary = summary;
+    this.tags = tags;
+    this.published = published;
+    this.created_at = created_at;
+  }
+}
+
+module.exports = BlogPost;

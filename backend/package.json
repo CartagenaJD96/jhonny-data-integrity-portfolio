@@ -1,0 +1,22 @@
+{
+  "name": "jhonny-data-integrity-portfolio-backend",
+  "version": "1.0.0",
+  "description": "Backend API REST para el portafolio profesional de Jhonny Daniel",
+  "main": "src/interfaces/server.js",
+  "scripts": {
+    "start": "node src/interfaces/server.js",
+    "dev": "nodemon src/interfaces/server.js"
+  },
+  "keywords": ["portfolio", "nodejs", "express", "mysql"],
+  "author": "Jhonny Daniel",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.18.0",
+    "mysql2": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.0"
+  }
+}
